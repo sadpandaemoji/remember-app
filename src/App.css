@@ -1,0 +1,32 @@
+/*i am thinking of making the app styled like marble notebook.
+-i need the blue lines and the red margin line.
+  -wait, ok hear me out. the composition paper is the style of cards,
+  it is rounded, with the red margin line like at most 4 pixels from the 
+  left. the word is on the big white stretch, and the definition is 
+  written within the blue lines.
+-the background needs to be the black and white, maybe vaguely reminiscient 
+of a cow pattern.
+-i need animation, maybe like the cards rotate a little in one direction,
+as well as zoom in a little, then zooms out and rotates a little in the other 
+direction
+-blinking lights, like a video game.
+
+
+*/
+
+
+body {
+  text-align: center;
+  margin:0;
+  background: url("../public/images/book-pattern.png") repeat;
+}
+
+h1 {
+  color: red;
+}
+
+.card {
+  margin-bottom: 12px;
+  background: url("../public/images/flashcard-paper.jpeg") repeat;
+}
+
