@@ -1,5 +1,6 @@
 import React from "react";
 import './App.css';
+import Flashcard from "./components/flashcard";
 
 function App() {
   return (
@@ -11,30 +12,9 @@ function App() {
           <h1>Remember</h1>
         </div>
       </div>
-      <div className="row">
-        <div className="col">
-          <div className="card">
-            <h3 className="card-title">Bark</h3>
-            <p className="card-text">verb: a noise a dog makes</p>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <div className="card">
-            <h3 className="card-title">Meow</h3>
-            <p className="card-text">verb: a noise a cat makes</p>
-          </div>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col">
-          <div className="card">
-            <h3 className="card-title">Hiss</h3>
-            <p className="card-text">verb: a noise a snake makes</p>
-          </div>
-        </div>
-      </div>
+      <Flashcard title="Bark" text="verb: a noise a dog makes"/>
+      <Flashcard title="Meow" text="verb: a noise a cat makes"/>
+      <Flashcard title="Hiss" text="verb: a noise a snake makes"/>
     </div>
 
   );
